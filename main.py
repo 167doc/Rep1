@@ -4,10 +4,11 @@ import random
 import re
 import sys
 
-from task2 import odd_even
+from task3 import matika
 
 
 
 if __name__ == '__main__':
     a = int(input().strip())
-    odd_even(a)
+    b = int(input().strip())
+    matika(a,b)
