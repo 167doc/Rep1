@@ -4,11 +4,11 @@ import random
 import re
 import sys
 
-from task3 import matika
+from task4 import division
 
 
 
 if __name__ == '__main__':
     a = int(input().strip())
     b = int(input().strip())
-    matika(a,b)
+    division(a,b)
